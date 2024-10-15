@@ -70,5 +70,19 @@
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+    cursor: pointer;
   }
-  
+
+  .contaniner-score{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: solid 1px blue ;
+  }
+
+  .contaniner-score span{
+    width: 40%;
+    font-weight: bold;
+    color: rgb(243, 65, 11);
+  }

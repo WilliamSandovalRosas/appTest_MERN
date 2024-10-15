@@ -1,4 +1,26 @@
-btn{
-    height: 50px;
+.prev{
+    background-color: rgb(247, 128, 49);
+    font-size: 20px;
 
+}
+
+.prev:hover{
+    background-color: aliceblue;
+    color: rgb(247, 128, 49);
+}
+
+.next{
+    background-color: chartreuse;
+    font-size: 20px;
+}
+
+.next:hover{
+    background-color: brown;
+    color: rgb(59, 241, 13);
+}
+
+.btn-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
 }
