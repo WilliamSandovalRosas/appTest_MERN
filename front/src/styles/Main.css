@@ -1,14 +1,14 @@
-*{
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
   }
-  
+
   body{
     background-image: url("../images/fondo.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   
   .App-header {
@@ -28,15 +28,16 @@
     align-items: center;
     justify-content: space-evenly;
   }
+
+  
   
   .container-content{
     width: 90%;
-    height: 70vh;
-    margin: 5%;
+    min-height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: rgb(1, 16, 56);
     font-size: 1.5rem;
   }
@@ -44,11 +45,22 @@
   .container-content h1{
     color: brown;
     font-size: 4rem;
+    margin-bottom: 0;
   }
   
   .container-content h2{
     color: chocolate;
     font-size: 3rem;
+    margin: 0;
+    
+  }
+    
+  
+
+  ol{
+    height: 30vh;
+    margin-bottom: 10px;
+    margin: 0;
   }
   
   .container-content input{
@@ -58,17 +70,18 @@
     font-size: 25px;
     color: chocolate;
     border-radius: 10px;
+    margin: 0;
   }
   
   
   .btn {
     color: #bb6b10;
     height: 40px;
-    font-size: 35px;
+    font-size: 25px;
     background-color: rgb(243, 23, 7);
     color: rgb(235, 226, 226);
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
     cursor: pointer;
   }
@@ -85,4 +98,29 @@
     width: 40%;
     font-weight: bold;
     color: rgb(243, 65, 11);
+  }
+
+  .container-table{
+    height: 50vh;
+    width: 60%;
+     }
+
+  table{
+    width: 100%;
+    height: 100%;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+  }
+
+  thead{
+    background-color: #f58326;
+    border-radius: 10px;
+    color: brown;
+  }
+
+  td{
+    text-align: center;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 5px;
   }

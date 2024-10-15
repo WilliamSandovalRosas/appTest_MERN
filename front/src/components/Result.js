@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Main.css'
 import {Link} from 'react-router-dom'
+import ResultTable from './ResultTable'
 
 
 export default function Result() {
@@ -39,6 +40,10 @@ export default function Result() {
 
       <div className='start'>
          <Link className='btn' to={'/'} onClick={restart}>Restart Quiz</Link>
+      </div>
+
+      <div className='container-table'>
+        <ResultTable></ResultTable>
       </div>
 
     </div>
