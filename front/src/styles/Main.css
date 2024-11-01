@@ -8,30 +8,31 @@
     background-image: url("../images/fondo.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
     
   }
   
-  .App-header {
-    margin: 0;
-    background-color: #282c34;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
   
+/*   
   nav{
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  }
+  } */
 
-  
-  
-  .container-content{
+ .container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .container-form{
+  min-height: 30vh;
+  margin: 10px;
+ }
+
+/*   .container-content{
     width: 90%;
     min-height: 120vh;
     display: flex;
@@ -40,29 +41,46 @@
     justify-content: space-between;
     color: rgb(1, 16, 56);
     font-size: 1.5rem;
-  }
+  } */
   
-  .container-content h1{
+  /* .container-content h1{
     color: brown;
     font-size: 4rem;
     margin-bottom: 0;
-  }
+  } */
   
-  .container-content h2{
+  /* .container-content h2{
     color: chocolate;
     font-size: 3rem;
     margin: 0;
     
-  }
+  } */
     
   
 
   ol{
-    height: 30vh;
+    height: 20vh;
     margin-bottom: 10px;
-    margin: 0;
+    
   }
   
+  li{
+    margin-bottom: 5px;
+  }
+
+  .start{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  #form input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+
   .container-content input{
     height: 40px;
     width: 100%;
@@ -70,20 +88,30 @@
     font-size: 25px;
     color: chocolate;
     border-radius: 10px;
-    margin: 0;
+    margin: 10px;
   }
   
   
   .btn {
-    color: #bb6b10;
-    height: 40px;
-    font-size: 25px;
+    color: #d13610;
+    height: 30px;
+    width: 30%;
+    font-size: 20px;
     background-color: rgb(243, 23, 7);
     color: rgb(235, 226, 226);
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .contaniner-score{

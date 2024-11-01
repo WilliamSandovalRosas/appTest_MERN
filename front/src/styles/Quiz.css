@@ -10,7 +10,7 @@
 }
 
 .next{
-    background-color: chartreuse;
+    background-color: rgb(179, 107, 12);
     font-size: 20px;
 }
 
@@ -24,3 +24,4 @@
     display: flex;
     justify-content: space-evenly;
 }
+
